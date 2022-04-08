@@ -1,0 +1,177 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  min-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 10px 200px 20px 50px;
+}
+h1 {
+  font-size: 40px;
+  margin: 20px 0px 30px 0px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.tezis_down {
+  font-size: 25px;
+  margin: 20px 0px 30px 0px;
+  line-height: 25px;
+  font-weight: 100;
+}
+.text {
+  font-size: 20px;
+  margin: 20px 10px 30px 0px;
+
+}
+.image {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.tezis_left {
+  font-size: 25px;
+  font-weight: 100;
+}
+.image_small {
+  display: inline-block;
+  width: 20%;
+  /* margin: 0px 10px 20px 0px; */
+  padding: 0 10px 0 0;
+}
+
+.image_small:last-child {
+  padding: 0;
+}
+
+li {
+  margin-left: 40px;
+  font-size: 20px;
+}
+.image_ul {
+  font-size: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.otstup {
+  font-size: 30px;
+  margin: 15px;
+}
+.span {
+  display: block;
+}
+.primer2 {
+font-size: 20px;
+padding: 15px;
+display: inline-block;
+max-width: 200px;
+max-height: 200px;
+background-color: aqua;
+overflow: auto;
+vertical-align: top;
+}
+.div_item {
+  font-size: 0;
+  margin: 30px;
+}
+.primer_3 {
+  font-size: 30px;
+  margin: 30px;
+  display: inline-block;
+}
+.primer_4 {
+  display: inline-block;
+  max-width: 100px;
+  background-color: brown;
+  margin: 0px 30px 0px 0px;
+  padding: 10px;
+  font-size: 16px;
+}
+.primer4 {
+  font-size: 0;
+  margin: 50px;
+}
+
+.button {
+  background-color: rgb(235, 33, 33);
+  font-size: 20px;
+  padding: 30px;
+ 
+ }
+.top {
+  background-color: rgb(33, 228, 235);
+  font-size: 20px;
+  padding: 30px;
+  margin: -50px 0px 50px 0px;
+}
+
+.primer6 {
+  font-size: 30px;
+  display: block;
+  max-height: 200px;
+  overflow: auto;
+  padding: 30px;
+  background-color: rgb(32, 197, 170);
+}
+
+.tezis_down {
+  padding: 20px 20px 20px 0px;
+  border-bottom: 3px solid rgb(21, 25, 223)
+}
+
+.tezis_left {
+  padding: 20px;
+  border-left: 3px solid rgb(21, 25, 223)
+}
+
+.test {
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  padding: 20px 20px 20px 20px;
+  margin: 50px;
+  border: 20px dashed red;
+  outline: 1px solid green;
+  /* opacity: 0.5; */
+  border-radius: 50%;
+  max-width: 900px;
+  max-height: 900px;
+  overflow: hidden;
+  background-color: rgb(225, 240, 15);
+  box-shadow: 10px 10px 10px 2px rgba(247, 6, 6, 0.2) inset,
+  10px 10px 10px 2px rgba(250, 4, 4, 0.2);
+}
